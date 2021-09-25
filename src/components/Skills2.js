@@ -38,7 +38,7 @@ const Skills2 = [
             icon: "icons/01_fire_arrow.png",
             tooltip: {
               content:
-                "Choose one school of magic. When you cast a spel from that school it's spell level increases by one for that casting, up to a maximum of fifth level.",
+                "Choose one school of magic. When you cast a spell from that school, its spell level increases by one for that casting, up to a maximum of fifth level.",
               direction: "left",
             },
             children: [
@@ -184,7 +184,7 @@ const Skills2 = [
                         icon: "icons/Skill_459.png",
                         tooltip: {
                           content:
-                            "You have learned to feed upon your own magic source to heal grievous wounds. As an action, you can spend a spell slot to gain a number of hit points equal to the spell level x (spellcasting modifier + proficiency bonus).",
+                            "You have learned to feed upon your own magic source to heal grievous wounds. As an action, you can spend a spell slot (or an equivalent amount of Aether) to gain a number of hit points equal to the spell level  x (spellcasting modifier + proficiency bonus).",
                           direction: "left",
                         },
                         children: [

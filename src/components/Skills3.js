@@ -18,7 +18,7 @@ const Skills3 = [
     icon: "icons/book-folder.jpg",
     tooltip: {
       content:
-        "Choose either Skillful or Knowledgeable. Skillful - You gain one skill, one tool, and one language profifiency. If you already have proficiency in that skill or tool, you instead gain expertise. Knowledgeable - You gain one extra spell slot of your highest available spell slots. This changes as you level and only grants a single spell slot.",
+        "Choose either Skillful or Knowledgeable. Skillful - You gain one skill, one tool, and one language profifiency. If you already have proficiency in that skill or tool, you instead gain expertise. Knowledgeable - You gain one extra spell slot of your highest available spell slots. This changes as you level and only grants a single spell slot. Aether Spellcasting - Your maximum Aether increases by an amount equal to your proficiency bonus.",
       direction: "left",
     },
     children: [
@@ -133,7 +133,7 @@ const Skills3 = [
         icon: "icons/Paladinskill_39.png",
         tooltip: {
           content:
-            "As an action, you can spend two spells slots of a lower level to replenish a spell slot one level higher. The replenished spell can be of no higher level than 5th.",
+            "As an action, you can spend two spells slots of a lower level to replenish a spell slot one level higher. The replenished spell can be of no higher level than 5th. Aether Spellcasting - At the end of a long rest, you can touch one creature with whom you are soulbound with and you gain temporary access to a spell that have have prepared/memorized. This lasts until your next long rest, is always prepared, and counts as a class spell for you.",
           direction: "left",
         },
         children: [
@@ -164,7 +164,7 @@ const Skills3 = [
                 icon: "icons/Warlock_35.png",
                 tooltip: {
                   content:
-                    "Any creature you are soulbound with can assist you in casting a ritual spell. Doing so reduces the ritual time by 2min per additional creature.",
+                    "Any creature you are soulbound with can assist you in casting a ritual spell. Doing so reduces the ritual time by 2min per additional creature. You can only have a single ritual effect active at any given time. Using this feature again immediately ends any previous ritual effects.",
                   direction: "left",
                 },
                 children: [
@@ -184,7 +184,7 @@ const Skills3 = [
                         icon: "icons/Priestskill_02.png",
                         tooltip: {
                           content:
-                            "Successfully dispelling or counterspelling a spell instead drains the magic used to cast it, replenishing your lowest level spell slot, up to the level of the spell.",
+                            "Successfully dispelling or counterspelling a spell instead drains the magic used to cast it, replenishing your lowest level spell slot, up to the level of the spell. Aether Spellcasting - You instead gain Aether equal to half the level of the dispelled or countered spell rounded up.",
                           direction: "left",
                         },
                         children: [
@@ -194,7 +194,7 @@ const Skills3 = [
                             icon: "icons/Paladinskill_48.png",
                             tooltip: {
                               content:
-                                "Any creature you are soulbound with can freely give you spell slots as an action and vice versa.",
+                                "As an action, once per long rest, you can give/receive a single spell slot (or an equivalent amount of Aether) to/from a creature you are soulbound with.",
                               direction: "left",
                             },
                             children: [
@@ -204,7 +204,7 @@ const Skills3 = [
                                 icon: "icons/Warlock_36.png",
                                 tooltip: {
                                   content:
-                                    "You have gained the ability to control your own aether with such precision that you can split higher level spell slots to regenerate lower level spell slots whose sum is equal to or less than the higher level spell. A 9th level spell could regenerate an 8th and a 1st, for example.",
+                                    "You have gained the ability to control your own aether with such precision that you can split higher level spell slots to regenerate lower level spell slots whose sum is equal to or less than the higher level spell. A 9th level spell could regenerate an 8th and a 1st, for example. Aether Spellcasting - Choose one spell from any class list of a level you can cast. That spell counts as a class spell for you and is always prepared.",
                                   direction: "left",
                                 },
                                 children: [],
