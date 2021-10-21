@@ -18,7 +18,7 @@ const Skills1 = [
     icon: "icons/autocrit.jpg",
     tooltip: {
       content:
-        "Your bonded souls have allowed you to access a reserve of power, which you can access in times of great need. Once per long rest, when you make a weapon (or unarmed/natural) attack, you can change the number rolled on your die to a 20. You can use this feature once per long rest.",
+        "Your bonded souls have allowed you to access a reserve of power, which you can access in times of great need. Once per long rest, when you make a weapon (or unarmed/natural) attack, you can automatically crit bypassing the need for a roll. You can use this feature once per long rest.",
       direction: "left",
     },
     children: [
