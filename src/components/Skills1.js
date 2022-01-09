@@ -234,21 +234,21 @@ const Skills1 = [
       },
       {
         id: "skill1-2-3",
-        title: "Leg Day",
-        icon: "icons/beast_01.jpg",
+        title: "Tactical Relocation",
+        icon: "icons/yellow_17.jpg",
         tooltip: {
           content:
-            "When you use your Strength of the Many feature, you can dash as a free action for the rest of this turn. If you dash using this feature, your movement does not provoke opportunity attacks. If you don't dash, you gain advantage on your next attack during your next turn.",
+            "When you use your Strength of the Many feature, you hit with such force that you can cause the creature to be moved a number of feet equal to three times the ability modifier used to make the attack roll. The creature must be no larger than one size category bigger than you.",
           direction: "left",
         },
         children: [
           {
             id: "skill1-3-5",
-            title: "Never Miss a Day",
-            icon: "icons/yellow_17.jpg",
+            title: "Leg Day",
+            icon: "icons/beast_01.jpg",
             tooltip: {
               content:
-                "Gain both effects of Leg Day when you use your Strength of the Many feature. Furthermore, your next advantage attack can be on the same turn.",
+                "You gain the effects of the dash action and do not provoke opportunity attacks when successfully knocking an opponent away from you.",
               direction: "left",
             },
             children: [],
@@ -265,11 +265,11 @@ const Skills1 = [
             children: [
               {
                 id: "skill1-4-3",
-                title: "Muscular",
+                title: "Team Player",
                 icon: "icons/blue_32.jpg",
                 tooltip: {
                   content:
-                    "You can carry and lift twice the normal weight for your strength. Furthermore, you can make a long jump without needing a running start.",
+                    "You have such coordination and teamwork with your allies that you can use your strengths to bolster their weaknesses. If an ally attacks an enemy you are engaged with and is rolling with disadvantage, you can use your reaction to cancel that disadvantage, allowing them to roll normally instead.",
                   direction: "left",
                 },
                 children: [
@@ -285,11 +285,11 @@ const Skills1 = [
                     children: [
                       {
                         id: "skill1-6-5",
-                        title: "Quick Hands",
+                        title: "Called Shots",
                         icon: "icons/gray_08.jpg",
                         tooltip: {
                           content:
-                            "You can swap between any number of weapons without spending an action on your turn.",
+                            "You martial skill is such that you can make called shots against creatures you attack. When making an attack roll against a creature, you can choose to take a defecit to your attack and instead attempt a martial feat. Examples include, disarming an opponent, shattering a wooden staff, knocking a crown off a head, etc. The defecit taken on your attack roll and what feats are allowed are entirely up to the DMs discretion.",
                           direction: "left",
                         },
                         children: [
