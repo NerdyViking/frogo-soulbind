@@ -1,8 +1,6 @@
 import "./App.css";
 import { SkillProvider, SkillTree, SkillTreeGroup } from "beautiful-skill-tree";
 import Skills1 from "./components/Skills1";
-import Skills2 from "./components/Skills2";
-import Skills3 from "./components/Skills3";
 
 import React from "react";
 
@@ -31,24 +29,10 @@ function App() {
             <React.Fragment>
               <SkillTree
                 treeId="tree1"
-                title="Might"
+                title="Frogo"
                 data={Skills1}
                 collapsible
-                description="Channeling the power of your soulbinds, you are able to enhance your physical prowess granting additional abilities and utility for martial situations."
-              />
-              <SkillTree
-                treeId="tree2"
-                title="Power"
-                data={Skills2}
-                collapsible
-                description="Having an increased well of aether to draw from, you have chosen to enhance your spellcasting abilities to provide greater throughput, range, or duration."
-              />
-              <SkillTree
-                treeId="tree3"
-                title="Knowledge"
-                data={Skills3}
-                collapsible
-                description="Never one to lust for power, you instead desire what some would consider the greatest of all treasures, knowledge. You can use this knowledge to enhance your already exceptional skills, or you can use it to broaden your abilities."
+                description="Channeling the power of your soulbinds, you are able to enhance your crafting and gain additional reflexes to protect those you love."
               />
             </React.Fragment>
           )}
